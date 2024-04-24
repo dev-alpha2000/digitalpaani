@@ -1,0 +1,93 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color:lightblue;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.b{
+  background-color: black;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px; /* Added margin to the left */
+}
+
+button:hover {
+  background-color:grey;
+}
+
+.WeatherDisplay {
+  background-color:lightsalmon;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.WeatherDisplay h2 {
+  color: #333;
+}
+
+.WeatherDisplay p {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0; /* Resetting the margin for full width */
+  }
+
+  .WeatherDisplay {
+    max-width: 100%;
+    margin: 0 10px;
+  }
+}
